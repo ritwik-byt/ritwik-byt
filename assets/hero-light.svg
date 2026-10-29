@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-label="Ritwik Ala — AWS Certified Data Engineer and Big Data &amp; Cloud Lakehouse Architect">
 <style>
-@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,20px)}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,15px)}}
 @keyframes word{0%{opacity:0;transform:translateY(6px)}3%,22%{opacity:1;transform:none}25%,100%{opacity:0;transform:translateY(-6px)}}
 @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
 @keyframes live{0%,100%{opacity:1}50%{opacity:.3}}
+@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+@keyframes spark{0%,20%{fill-opacity:.8;stroke-width:2.2}30%,100%{fill-opacity:.15;stroke-width:1}}
+@keyframes pulse_meter{0%,100%{width:66px}50%{width:72px}}
 .g1{animation:drift 12s ease-in-out infinite}
 .w0{animation:word 12s infinite;animation-delay:0.0s;opacity:0}
 .w1{animation:word 12s infinite;animation-delay:3.0s;opacity:0}
@@ -11,12 +14,9 @@
 .w3{animation:word 12s infinite;animation-delay:9.0s;opacity:0}
 .cur{animation:blink 1s step-end infinite}
 .live{animation:live 1.6s ease-in-out infinite}
-@keyframes fire0{0%,0.0%{fill:#cbd9ee;filter:none}0.0%,8.3%{fill:#0066b1;filter:drop-shadow(0 0 5px #0066b1)}16.7%,100%{fill:#cbd9ee;filter:none}}.fled0{animation:fire0 3.6s infinite}
-@keyframes fire4{0%,16.6%{fill:#cbd9ee;filter:none}16.7%,25.0%{fill:#0066b1;filter:drop-shadow(0 0 5px #0066b1)}33.3%,100%{fill:#cbd9ee;filter:none}}.fled4{animation:fire4 3.6s infinite}
-@keyframes fire2{0%,33.2%{fill:#cbd9ee;filter:none}33.3%,41.7%{fill:#0066b1;filter:drop-shadow(0 0 5px #0066b1)}50.0%,100%{fill:#cbd9ee;filter:none}}.fled2{animation:fire2 3.6s infinite}
-@keyframes fire5{0%,49.9%{fill:#cbd9ee;filter:none}50.0%,58.3%{fill:#0066b1;filter:drop-shadow(0 0 5px #0066b1)}66.7%,100%{fill:#cbd9ee;filter:none}}.fled5{animation:fire5 3.6s infinite}
-@keyframes fire1{0%,66.6%{fill:#cbd9ee;filter:none}66.7%,75.0%{fill:#0066b1;filter:drop-shadow(0 0 5px #0066b1)}83.3%,100%{fill:#cbd9ee;filter:none}}.fled1{animation:fire1 3.6s infinite}
-@keyframes fire3{0%,83.2%{fill:#cbd9ee;filter:none}83.3%,91.7%{fill:#0066b1;filter:drop-shadow(0 0 5px #0066b1)}100.0%,100%{fill:#cbd9ee;filter:none}}.fled3{animation:fire3 3.6s infinite}
+.turbine-spin{animation:spin 1.8s linear infinite;transform-origin:10px 10px}
+.piston-spark{animation:spark 3.3s ease-in-out infinite}
+.bar-pulse{animation:pulse_meter 2.5s ease-in-out infinite}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 <defs>
@@ -28,34 +28,193 @@
 <clipPath id="clip"><rect x="1" y="1" width="1278" height="428" rx="20"/></clipPath>
 </defs>
 <g clip-path="url(#clip)">
-<rect width="1280" height="430" fill="#f7f9fd"/>
+<rect width="1280" height="430" fill="#f8fafd"/>
 <rect width="1280" height="430" fill="url(#grid)" mask="url(#m)"/>
 <circle class="g1" cx="1020" cy="110" r="180" fill="#0066b1" opacity="0.12" filter="url(#blur)"/>
 <circle class="g1" cx="800" cy="310" r="140" fill="#cc0c29" opacity="0.08" filter="url(#blur)"/>
 </g>
 <rect x="0.5" y="0.5" width="1279" height="429" rx="20" fill="none" stroke="#cbd9ee"/>
 
-<!-- Top Metadata Bar -->
+<!-- Top Metadata Bar (Akshay Style) -->
 <g class="top-meta">
-  <g class="m-stripes" transform="translate(58,73)"><polygon points="0,18 6,18 11,0 5,0" fill="#0066b1"/><polygon points="9,18 15,18 20,0 14,0" fill="#152b5e"/><polygon points="18,18 24,18 29,0 23,0" fill="#cc0c29"/></g>
-  <text x="180" y="87" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#617494">~/ritwik-byt · b58-data-engine</text>
-  <circle class="fled0" cx="94" cy="82" r="3.2" fill="#cbd9ee"/><circle class="fled1" cx="107" cy="82" r="3.2" fill="#cbd9ee"/><circle class="fled2" cx="120" cy="82" r="3.2" fill="#cbd9ee"/><circle class="fled3" cx="133" cy="82" r="3.2" fill="#cbd9ee"/><circle class="fled4" cx="146" cy="82" r="3.2" fill="#cbd9ee"/><circle class="fled5" cx="159" cy="82" r="3.2" fill="#cbd9ee"/>
-  <text x="760" y="87" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.2" fill="#617494">B58 INLINE-6 · DATA TELEMETRY</text>
-  <circle class="live" cx="1218" cy="83" r="3.5" fill="#0066b1"/>
-  <text x="1208" y="87" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#617494">7,200 RPM · 24.5 PSI</text>
+  <g class="m-stripes" transform="translate(58,73)"><polygon points="0,16 5.5,16 10.0,0 4.5,0" fill="#0066b1"/><polygon points="8.0,16 13.5,16 18.0,0 12.5,0" fill="#152b5e"/><polygon points="16.0,16 21.5,16 26.0,0 20.5,0" fill="#cc0c29"/></g>
+  <text x="105" y="86" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#617494">~/ritwik-byt</text>
+  <rect x="205" y="72" width="102" height="20" rx="10" fill="#e1ecfa" stroke="#cbd9ee"/>
+  <circle cx="216" cy="82" r="3" fill="#0066b1"/>
+  <text x="225" y="86" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#3f506e">3D MOTOR v2</text>
+  <rect x="314" y="72" width="56" height="20" rx="10" fill="#e1ecfa" stroke="#cbd9ee"/>
+  <text x="324" y="86" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#3f506e">60 FPS</text>
+
+  <!-- Right side header -->
+  <text x="730" y="86" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="1.2" fill="#617494">· 3D MOTOR TELEMETRY · 35° ISOMETRIC</text>
+  <circle class="live" cx="1218" cy="82" r="3.5" fill="#0066b1"/>
+  <text x="1208" y="86" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#0066b1">LIVE 7,200 RPM</text>
 </g>
 
 <!-- Left Column: Title, Role, Typing & Badges -->
-<text x="58" y="162" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-size="56" font-weight="400" letter-spacing="-1.2" fill="#0d172a">Ritwik Ala</text>
-<text x="60" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="400" letter-spacing="0.2" fill="#3f506e"><tspan fill="#0d172a">AWS Certified Data Engineer</tspan><tspan fill="#0066b1">  /  </tspan>Big Data &amp; Cloud Lakehouse Architect</text>
-<g><text x="60" y="286" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#617494">$ now tuning</text><text class="w0" x="228" y="286" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#0d172a">Cloud E-Commerce Medallion Lakehouse<tspan class="cur" fill="#0066b1">▍</tspan></text><text class="w1" x="228" y="286" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#0d172a">560K+ Record PySpark Distributed Engine<tspan class="cur" fill="#0066b1">▍</tspan></text><text class="w2" x="228" y="286" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#0d172a">Algorithmic Trading &amp; Risk Analytics Pipeline<tspan class="cur" fill="#0066b1">▍</tspan></text><text class="w3" x="228" y="286" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#0d172a">Snappy Parquet Optimization (-79% Storage)<tspan class="cur" fill="#0066b1">▍</tspan></text></g>
-<g><rect x="58" y="332" width="296" height="26" rx="13" fill="#e1ecfa" stroke="#cbd9ee"/><text x="69" y="349.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#3f506e">AWS Certified Data Engineer – Associate</text><rect x="362" y="332" width="317" height="26" rx="13" fill="#e1ecfa" stroke="#cbd9ee"/><text x="373" y="349.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#3f506e">VIT-AP · B.Tech Data Analytics (8.68 CGPA)</text><rect x="58" y="368" width="268" height="26" rx="13" fill="#e1ecfa" stroke="#cbd9ee"/><text x="69" y="385.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#3f506e">Databricks · PySpark · Airflow · S3</text><rect x="334" y="368" width="198" height="26" rx="13" fill="#e1ecfa" stroke="#cbd9ee"/><text x="345" y="385.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#3f506e">BMW M TwinPower Telemetry</text></g>
+<text x="58" y="158" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-size="54" font-weight="400" letter-spacing="-1.2" fill="#0d172a">Ritwik Ala</text>
+<text x="60" y="206" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20.5" font-weight="400" letter-spacing="0.2" fill="#3f506e"><tspan fill="#0d172a">AWS Certified Data Engineer</tspan><tspan fill="#0066b1">  /  </tspan>Big Data &amp; Cloud Lakehouse Architect</text>
+<g><text x="60" y="286" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16.5" fill="#617494">$ now tuning</text><text class="w0" x="228" y="286" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16.5" fill="#0d172a">560K+ Record Medallion Lakehouse on AWS &amp; Databricks<tspan class="cur" fill="#0066b1">▍</tspan></text><text class="w1" x="228" y="286" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16.5" fill="#0d172a">Snappy Parquet Optimization (-79% Storage Footprint)<tspan class="cur" fill="#0066b1">▍</tspan></text><text class="w2" x="228" y="286" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16.5" fill="#0d172a">Algorithmic Trading &amp; Quantitative Volatility Pipeline<tspan class="cur" fill="#0066b1">▍</tspan></text><text class="w3" x="228" y="286" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16.5" fill="#0d172a">B58 TwinPower Telemetry &amp; Distributed Stream Processing<tspan class="cur" fill="#0066b1">▍</tspan></text></g>
+<g><rect x="58" y="328" width="298" height="26" rx="13" fill="#e1ecfa" stroke="#cbd9ee"/><text x="69" y="345" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#3f506e">CSE (Data Analytics) · VIT-AP (8.68 CGPA)</text><rect x="364" y="328" width="284" height="26" rx="13" fill="#e1ecfa" stroke="#cbd9ee"/><text x="375" y="345" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#3f506e">AWS Certified Data Engineer – Associate</text><rect x="656" y="328" width="257" height="26" rx="13" fill="#e1ecfa" stroke="#cbd9ee"/><text x="667" y="345" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#3f506e">3D BMW Telemetry &amp; Lakehouse Engine</text></g>
+<text x="60" y="380" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8e9fb8">PySpark · Databricks · Amazon S3 · AWS Athena · Apache Airflow · Snappy Parquet · Star Schema</text>
 
-<!-- Right Column: B58 Inline-6 Engine Block -->
-<g class="engine-telemetry">
-  <path d="M 876 120 L 1130 120 L 1130 300 L 876 300 Z" fill="none" stroke="#cbd9ee" stroke-width="1.8" stroke-dasharray="4 6"/>
-  <circle r="2.8" fill="#0066b1" opacity=".9" filter="url(#glow)"><animateMotion dur="3.6s" begin="0s" repeatCount="indefinite" path="M 876 120 L 1130 120 L 1130 300 L 876 300 Z"/></circle><circle r="2.8" fill="#0066b1" opacity=".9" filter="url(#glow)"><animateMotion dur="3.6s" begin="1.2s" repeatCount="indefinite" path="M 876 120 L 1130 120 L 1130 300 L 876 300 Z"/></circle><circle r="2.8" fill="#0066b1" opacity=".9" filter="url(#glow)"><animateMotion dur="3.6s" begin="2.4s" repeatCount="indefinite" path="M 876 120 L 1130 120 L 1130 300 L 876 300 Z"/></circle>
-  <g class="cyl-block" style="animation-delay:0.00s"><rect x="760" y="126" width="232" height="50" rx="10" fill="#edf3fc" stroke="#cbd9ee"/><rect class="cyl-ring fled0" x="760" y="126" width="232" height="50" rx="10" fill="none" stroke="#0066b1" stroke-opacity="0.25"/><rect x="770" y="138" width="42" height="26" rx="6" fill="#e1ecfa" stroke="#cbd9ee"/><text x="791" y="155" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="600" fill="#0066b1">CYL 1</text><text x="820" y="152" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#0d172a">BRONZE INTAKE</text><text x="820" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#617494">560K+ REST FX &amp; S3</text></g><g class="cyl-block" style="animation-delay:0.40s"><rect x="1014" y="126" width="232" height="50" rx="10" fill="#edf3fc" stroke="#cbd9ee"/><rect class="cyl-ring fled1" x="1014" y="126" width="232" height="50" rx="10" fill="none" stroke="#0066b1" stroke-opacity="0.25"/><rect x="1024" y="138" width="42" height="26" rx="6" fill="#e1ecfa" stroke="#cbd9ee"/><text x="1045" y="155" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="600" fill="#0066b1">CYL 5</text><text x="1074" y="152" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#0d172a">DATABRICKS</text><text x="1074" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#617494">PySpark 10K+ Dedup</text></g><g class="cyl-block" style="animation-delay:0.80s"><rect x="760" y="186" width="232" height="50" rx="10" fill="#edf3fc" stroke="#cbd9ee"/><rect class="cyl-ring fled2" x="760" y="186" width="232" height="50" rx="10" fill="none" stroke="#0066b1" stroke-opacity="0.25"/><rect x="770" y="198" width="42" height="26" rx="6" fill="#e1ecfa" stroke="#cbd9ee"/><text x="791" y="215" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="600" fill="#0066b1">CYL 3</text><text x="820" y="212" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#0d172a">TWIN TURBO</text><text x="820" y="228" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#617494">Snappy Parquet (-79%)</text></g><g class="cyl-block" style="animation-delay:1.20s"><rect x="1014" y="186" width="232" height="50" rx="10" fill="#edf3fc" stroke="#cbd9ee"/><rect class="cyl-ring fled3" x="1014" y="186" width="232" height="50" rx="10" fill="none" stroke="#0066b1" stroke-opacity="0.25"/><rect x="1024" y="198" width="42" height="26" rx="6" fill="#e1ecfa" stroke="#cbd9ee"/><text x="1045" y="215" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="600" fill="#0066b1">CYL 6</text><text x="1074" y="212" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#0d172a">SILVER LAYER</text><text x="1074" y="228" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#617494">Strict Schema Rules</text></g><g class="cyl-block" style="animation-delay:1.60s"><rect x="760" y="246" width="232" height="50" rx="10" fill="#edf3fc" stroke="#cbd9ee"/><rect class="cyl-ring fled4" x="760" y="246" width="232" height="50" rx="10" fill="none" stroke="#0066b1" stroke-opacity="0.25"/><rect x="770" y="258" width="42" height="26" rx="6" fill="#e1ecfa" stroke="#cbd9ee"/><text x="791" y="275" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="600" fill="#0066b1">CYL 2</text><text x="820" y="272" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#0d172a">STAR SCHEMA</text><text x="820" y="288" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#617494">SCD 2 History Track</text></g><g class="cyl-block" style="animation-delay:2.00s"><rect x="1014" y="246" width="232" height="50" rx="10" fill="#edf3fc" stroke="#cbd9ee"/><rect class="cyl-ring fled5" x="1014" y="246" width="232" height="50" rx="10" fill="none" stroke="#0066b1" stroke-opacity="0.25"/><rect x="1024" y="258" width="42" height="26" rx="6" fill="#e1ecfa" stroke="#cbd9ee"/><text x="1045" y="275" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="600" fill="#0066b1">CYL 4</text><text x="1074" y="272" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#0d172a">GOLD EXHAUST</text><text x="1074" y="288" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#617494">Athena SQL &amp; Streamlit</text></g>
-  <text x="760" y="324" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#617494">Firing 1-5-3-6-2-4 · 24.5 PSI Boost · 99% Athena Cost Reduction</text>
-</g>
+<!-- Right Column: 3D Isometric Engine & BMW Car Viewport -->
+
+    <g id="3d-engine-viewport">
+      
+    <!-- 3D Isometric Platform -->
+    <g class="iso-platform">
+      <!-- Left Extruded Face -->
+      <polygon points="720,218 955,308 955,324 720,234" fill="#ccdcf0" stroke="#cbd9ee" stroke-width="1"/>
+      <!-- Right Extruded Face -->
+      <polygon points="955,308 1190,218 1190,234 955,324" fill="#d6e4f5" stroke="#cbd9ee" stroke-width="1"/>
+      <!-- Top Stage Surface -->
+      <polygon points="955,128 1190,218 955,308 720,218" fill="#e5effa" stroke="#cbd9ee" stroke-width="1.2"/>
+      
+      <!-- Top Surface Isometric Grid -->
+      <line x1="778" y1="195" x2="1013" y2="285" stroke="#c5d7ee" stroke-width="1"/>
+      <line x1="837" y1="173" x2="1072" y2="263" stroke="#c5d7ee" stroke-width="1"/>
+      <line x1="896" y1="150" x2="1131" y2="240" stroke="#c5d7ee" stroke-width="1"/>
+      
+      <line x1="1013" y1="150" x2="778" y2="240" stroke="#c5d7ee" stroke-width="1"/>
+      <line x1="1072" y1="173" x2="837" y2="263" stroke="#c5d7ee" stroke-width="1"/>
+      <line x1="1131" y1="195" x2="896" y2="285" stroke="#c5d7ee" stroke-width="1"/>
+
+      <!-- Glowing Stage Perimeter -->
+      <polygon points="955,128 1190,218 955,308 720,218" fill="none" stroke="#0066b1" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="8 6"/>
+    </g>
+    
+      
+    <!-- BMW M Car Wireframe Silhouette -->
+    <g class="bmw-car" stroke="#1d4ed8" stroke-width="1.5" fill="none" stroke-linejoin="round">
+      <!-- Ground Shadow / Base -->
+      <path d="M 770,220 L 890,175 L 1080,210 L 1130,225 L 1020,265 L 810,235 Z" fill="#e1ecfa" fill-opacity="0.5" stroke="none"/>
+
+      <!-- Lower Chassis Line -->
+      <path d="M 780,215 L 830,195 L 880,185 L 1030,205 L 1110,222 L 1040,250 L 880,230 L 780,215 Z" stroke-opacity="0.8"/>
+
+      <!-- Wheels (Isometric Ellipses with Glowing Rotors) -->
+      <!-- Rear Left Wheel -->
+      <g transform="translate(820, 218) skewY(21) scale(0.65, 1.1)">
+        <ellipse cx="0" cy="0" rx="14" ry="9" fill="#edf3fc" stroke="#0066b1" stroke-width="2"/>
+        <circle cx="0" cy="0" r="3" fill="#cc0c29"/>
+      </g>
+      <!-- Front Left Wheel -->
+      <g transform="translate(1040, 247) skewY(21) scale(0.65, 1.1)">
+        <ellipse cx="0" cy="0" rx="14" ry="9" fill="#edf3fc" stroke="#0066b1" stroke-width="2"/>
+        <circle cx="0" cy="0" r="3" fill="#cc0c29"/>
+      </g>
+      <!-- Rear Right Wheel -->
+      <g transform="translate(860, 185) skewY(21) scale(0.6, 1.0)">
+        <ellipse cx="0" cy="0" rx="12" ry="8" fill="#edf3fc" stroke="#8e9fb8" stroke-width="1.5"/>
+      </g>
+      <!-- Front Right Wheel -->
+      <g transform="translate(1085, 216) skewY(21) scale(0.6, 1.0)">
+        <ellipse cx="0" cy="0" rx="12" ry="8" fill="#edf3fc" stroke="#8e9fb8" stroke-width="1.5"/>
+      </g>
+
+      <!-- Roofline, A-Pillar, Windshield, Hood -->
+      <!-- Aerodynamic Fastback Roofline -->
+      <path d="M 770,200 L 800,195 L 830,165 L 900,148 L 965,160 L 1050,192 L 1120,215 L 1125,225" stroke="#0066b1" stroke-width="1.8"/>
+      <!-- Greenhouse / Window Edge -->
+      <path d="M 830,165 L 895,152 L 955,164 L 980,186 L 850,188 Z" fill="#0066b1" fill-opacity="0.08" stroke="#0066b1" stroke-width="1"/>
+      <!-- Hood Center Crease Line -->
+      <path d="M 965,160 L 1070,188 L 1120,215" stroke="#0066b1" stroke-dasharray="3 3"/>
+      <!-- Iconic BMW Double Kidney Grille at Front -->
+      <g transform="translate(1115, 216) rotate(21)">
+        <rect x="-8" y="-6" width="6" height="12" rx="3" fill="#edf3fc" stroke="#0066b1" stroke-width="1.4"/>
+        <rect x="0" y="-6" width="6" height="12" rx="3" fill="#edf3fc" stroke="#cc0c29" stroke-width="1.4"/>
+      </g>
+      <!-- Rear Carbon Wing / GT Spoiler -->
+      <path d="M 755,190 L 785,180 L 790,195 L 760,205 Z" fill="#edf3fc" stroke="#0066b1" stroke-width="1.6"/>
+      <line x1="770" y1="195" x2="770" y2="208" stroke="#0066b1" stroke-width="1.8"/>
+      <line x1="780" y1="190" x2="780" y2="204" stroke="#0066b1" stroke-width="1.8"/>
+    </g>
+    
+      
+    <!-- Inline-6 Engine Assembly on Chassis -->
+    <g class="i6-engine">
+      <!-- Crankcase & Cylinder Block Base -->
+      <polygon points="900,192 1050,248 1060,242 910,186" fill="#edf3fc" stroke="#0066b1" stroke-width="1.4"/>
+      <!-- 6 Cylinders -->
+      <g class="cyl-piston" transform="translate(910, 196)"><!-- Cylinder Bore --><ellipse cx="0" cy="0" rx="8" ry="4.5" fill="#edf3fc" stroke="#cbd9ee" stroke-width="1.2"/><!-- Piston Head with Cycling Firing Glow --><ellipse class="piston-spark" cx="0" cy="0" rx="6" ry="3.5" fill="#0066b1" fill-opacity="0.3" stroke="#0066b1" stroke-width="1.5" style="animation-delay:0.00s"/><circle class="spark-core" cx="0" cy="0" r="1.8" fill="#0d172a" style="animation-delay:0.00s"/></g><g class="cyl-piston" transform="translate(934, 205)"><!-- Cylinder Bore --><ellipse cx="0" cy="0" rx="8" ry="4.5" fill="#edf3fc" stroke="#cbd9ee" stroke-width="1.2"/><!-- Piston Head with Cycling Firing Glow --><ellipse class="piston-spark" cx="0" cy="0" rx="6" ry="3.5" fill="#0066b1" fill-opacity="0.3" stroke="#0066b1" stroke-width="1.5" style="animation-delay:2.20s"/><circle class="spark-core" cx="0" cy="0" r="1.8" fill="#0d172a" style="animation-delay:2.20s"/></g><g class="cyl-piston" transform="translate(958, 214)"><!-- Cylinder Bore --><ellipse cx="0" cy="0" rx="8" ry="4.5" fill="#edf3fc" stroke="#cbd9ee" stroke-width="1.2"/><!-- Piston Head with Cycling Firing Glow --><ellipse class="piston-spark" cx="0" cy="0" rx="6" ry="3.5" fill="#0066b1" fill-opacity="0.3" stroke="#0066b1" stroke-width="1.5" style="animation-delay:1.10s"/><circle class="spark-core" cx="0" cy="0" r="1.8" fill="#0d172a" style="animation-delay:1.10s"/></g><g class="cyl-piston" transform="translate(982, 223)"><!-- Cylinder Bore --><ellipse cx="0" cy="0" rx="8" ry="4.5" fill="#edf3fc" stroke="#cbd9ee" stroke-width="1.2"/><!-- Piston Head with Cycling Firing Glow --><ellipse class="piston-spark" cx="0" cy="0" rx="6" ry="3.5" fill="#0066b1" fill-opacity="0.3" stroke="#0066b1" stroke-width="1.5" style="animation-delay:2.75s"/><circle class="spark-core" cx="0" cy="0" r="1.8" fill="#0d172a" style="animation-delay:2.75s"/></g><g class="cyl-piston" transform="translate(1006, 232)"><!-- Cylinder Bore --><ellipse cx="0" cy="0" rx="8" ry="4.5" fill="#edf3fc" stroke="#cbd9ee" stroke-width="1.2"/><!-- Piston Head with Cycling Firing Glow --><ellipse class="piston-spark" cx="0" cy="0" rx="6" ry="3.5" fill="#0066b1" fill-opacity="0.3" stroke="#0066b1" stroke-width="1.5" style="animation-delay:0.55s"/><circle class="spark-core" cx="0" cy="0" r="1.8" fill="#0d172a" style="animation-delay:0.55s"/></g><g class="cyl-piston" transform="translate(1030, 241)"><!-- Cylinder Bore --><ellipse cx="0" cy="0" rx="8" ry="4.5" fill="#edf3fc" stroke="#cbd9ee" stroke-width="1.2"/><!-- Piston Head with Cycling Firing Glow --><ellipse class="piston-spark" cx="0" cy="0" rx="6" ry="3.5" fill="#0066b1" fill-opacity="0.3" stroke="#0066b1" stroke-width="1.5" style="animation-delay:1.65s"/><circle class="spark-core" cx="0" cy="0" r="1.8" fill="#0d172a" style="animation-delay:1.65s"/></g>
+      <!-- High-Pressure Fuel Rail / Data Pipeline Bus -->
+      <line x1="895" y1="188" x2="1055" y2="248" stroke="#cc0c29" stroke-width="2" stroke-dasharray="4 4"/>
+      <!-- Intake Manifold Plenum -->
+      <path d="M 910,185 C 930,170 980,185 1010,195 L 1050,210" fill="none" stroke="#0066b1" stroke-width="2.2"/>
+    </g>
+    
+      
+    <!-- Twin-Scroll Turbocharger -->
+    <g class="turbo-unit" transform="translate(930, 168)">
+      <!-- Snail Shell Housing / Volute -->
+      <path d="M 0,0 C 12,-10 28,-4 30,10 C 31,20 20,28 8,26 C -4,24 -12,14 -8,2 C -6,-6 -2,-12 14,-16 L 24,-14" fill="#edf3fc" stroke="#0066b1" stroke-width="1.8"/>
+      <!-- Compressor Intake Inlet -->
+      <ellipse cx="10" cy="10" rx="10" ry="8" fill="#e1ecfa" stroke="#cbd9ee" stroke-width="1.4"/>
+      <!-- Spinning Turbine Impeller Blades -->
+      <g class="turbine-spin" transform="translate(10, 10)">
+        <circle cx="0" cy="0" r="2.2" fill="#0066b1"/>
+        <line x1="-7" y1="0" x2="7" y2="0" stroke="#0066b1" stroke-width="1.5"/>
+        <line x1="0" y1="-6" x2="0" y2="6" stroke="#0066b1" stroke-width="1.5"/>
+        <line x1="-5" y1="-4" x2="5" y2="4" stroke="#0066b1" stroke-width="1.2"/>
+        <line x1="-5" y1="4" x2="5" y2="-4" stroke="#0066b1" stroke-width="1.2"/>
+      </g>
+      <!-- Boost Pipe to Intercooler -->
+      <path d="M 28,10 C 40,16 50,22 65,28" fill="none" stroke="#0066b1" stroke-width="2" stroke-dasharray="3 3"/>
+    </g>
+    
+      
+    <!-- Tactical 3D Callout Pins (Akshay Style) -->
+    <!-- Callout 1: Turbo Boost -->
+    <g class="callout" transform="translate(850, 110)">
+      <line x1="88" y1="58" x2="55" y2="28" stroke="#0066b1" stroke-width="1.2" stroke-dasharray="2 2"/>
+      <circle cx="88" cy="58" r="2.5" fill="#0066b1"/>
+      <rect x="0" y="0" width="118" height="28" rx="6" fill="#e8f1fc" stroke="#b8cfea" stroke-width="1.2"/>
+      <text x="8" y="14" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="600" fill="#0066b1">BOOST +24.5 PSI</text>
+      <text x="8" y="24" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#617494">Twin-Scroll Turbo</text>
+    </g>
+
+    <!-- Callout 2: Inline-6 Firing -->
+    <g class="callout" transform="translate(1040, 128)">
+      <line x1="-40" y1="75" x2="0" y2="28" stroke="#0066b1" stroke-width="1.2" stroke-dasharray="2 2"/>
+      <circle cx="-40" cy="75" r="2.5" fill="#0066b1"/>
+      <rect x="0" y="0" width="134" height="28" rx="6" fill="#e8f1fc" stroke="#b8cfea" stroke-width="1.2"/>
+      <text x="8" y="14" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="600" fill="#0d172a">INLINE-6 · B58</text>
+      <text x="8" y="24" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#0066b1">Firing 1-5-3-6-2-4</text>
+    </g>
+
+    <!-- Callout 3: Parquet Compression -->
+    <g class="callout" transform="translate(1060, 275)">
+      <line x1="-20" y1="-28" x2="0" y2="0" stroke="#0066b1" stroke-width="1.2" stroke-dasharray="2 2"/>
+      <circle cx="-20" cy="-28" r="2.5" fill="#0066b1"/>
+      <rect x="0" y="0" width="142" height="28" rx="6" fill="#e8f1fc" stroke="#b8cfea" stroke-width="1.2"/>
+      <text x="8" y="14" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="600" fill="#0066b1">PARQUET -79%</text>
+      <text x="8" y="24" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#617494">560K+ Rec · Snappy</text>
+    </g>
+
+    <!-- Callout 4: Athena Scan Cost -->
+    <g class="callout" transform="translate(710, 260)">
+      <line x1="110" y1="-42" x2="80" y2="0" stroke="#0066b1" stroke-width="1.2" stroke-dasharray="2 2"/>
+      <circle cx="110" cy="-42" r="2.5" fill="#0066b1"/>
+      <rect x="0" y="0" width="128" height="28" rx="6" fill="#e8f1fc" stroke="#b8cfea" stroke-width="1.2"/>
+      <text x="8" y="14" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="600" fill="#cc0c29">ATHENA SCAN -99%</text>
+      <text x="8" y="24" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="8.5" fill="#617494">Partition Pruning</text>
+    </g>
+    
+      
+    <!-- Bottom Telemetry Console Bar (Akshay Style) -->
+    <g class="telemetry-bar" transform="translate(680, 350)">
+      <text x="0" y="12" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="1" fill="#617494">TORQUE MOMENTUM:</text>
+      <!-- Progress Bar Track -->
+      <rect x="114" y="4" width="76" height="8" rx="4" fill="#edf3fc" stroke="#cbd9ee" stroke-width="1"/>
+      <!-- Glowing Active Meter Bar -->
+      <rect class="bar-pulse" x="115" y="5" width="66" height="6" rx="3" fill="#0066b1"/>
+      <text x="198" y="12" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="600" fill="#0066b1">+88.4% HIGH-RPM</text>
+      <text x="320" y="12" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" fill="#617494">500 N·m · 0-60: 3.8s</text>
+
+      <text x="0" y="27" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" letter-spacing="0.8" fill="#8e9fb8">RENDER: B58 TWINPOWER · GPU ACCEL · VITMC 09 · ANTI-ALIAS 4x</text>
+    </g>
+    
+    </g>
+    
 </svg>

@@ -5,13 +5,31 @@
   <img src="./assets/hero-light.svg" width="100%" alt="Ritwik Ala — AWS Certified Data Engineer · Big Data & Cloud Lakehouse Architect">
 </picture>
 
-**[Portfolio](https://github.com/ritwik-byt/portfolio)** &nbsp;·&nbsp; [Resume](./assets/Ritwik_Ala_Resume.pdf) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/avv-ritwik-b90046382/) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/AlaRitwik/) &nbsp;·&nbsp; [Email](mailto:alaritwik@gmail.com)
+<br/>
+
+**[GitHub](https://github.com/ritwik-byt)** &nbsp;·&nbsp; **[LinkedIn](https://www.linkedin.com/in/avv-ritwik-b90046382/)** &nbsp;·&nbsp; **[Email](mailto:alaritwik@gmail.com)** &nbsp;·&nbsp; **[Resume](https://drive.google.com/file/d/1EOpypz-nGTFW8J_EXduz2dsreTF64Ady/view?usp=sharing)** &nbsp;·&nbsp; **[Portfolio](https://portfolio-gilt-nine-48.vercel.app/)** &nbsp;·&nbsp; **[LeetCode](https://leetcode.com/u/AlaRitwik/)**
 
 </div>
 
 <br/>
 
-Computer Science undergraduate specializing in **Data Analytics** at **VIT-AP** (CGPA: 8.68/10) and **AWS Certified Data Engineer – Associate**. I architect distributed cloud data pipelines and analytical lakehouses: orchestrating **PySpark** batch transformations in **Databricks**, enforcing strict schema rules and Star Schema dimensional modeling, and tuning **Snappy Parquet** storage for a **79% footprint reduction** and **99% Athena scan cost savings**. Seeking a **Data Engineering Internship** to build fault-tolerant, high-torque data platforms.
+Computer Science undergraduate specializing in **Data Analytics** at **VIT-AP University, Amaravati** (CGPA: 8.68/10) and **AWS Certified Data Engineer – Associate**. Focused on architecting distributed cloud data pipelines and analytical lakehouses: orchestrating **PySpark** batch transformations in **Databricks**, enforcing strict schema rules, Star Schema dimensional modeling, and tuning **Snappy Parquet** storage for a **79% footprint reduction** and **99% Athena scan cost savings**.
+
+Passionate automotive enthusiast and **BMW M Performance** telemetry follower — analyzing engine telemetry data, forced-induction twin-scroll boost pressure, and power distribution at the intersection of high-torque mechanical engineering and distributed data systems. Actively seeking **Data Engineering Internship** and cloud-native engineering opportunities.
+
+### 🏎️ Interactive 3D Portfolio (BMW & Lakehouse Edition)
+
+<p align="center">
+  <a href="https://portfolio-gilt-nine-48.vercel.app/">
+    <img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-PORTFOLIO--GILT--NINE--48.VERCEL.APP-0084ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Portfolio">
+  </a>
+</p>
+
+Bespoke automotive-engineered 3D Web Portfolio built with **Three.js**, **Vite**, and **Lenis**:
+- **Refinery & Engine Intro:** 10s procedural 3D Medallion refinery & high-speed telemetry sequence.
+- **Interactive 3D Lakehouse Pipeline:** Dynamic 3D pipeline stages mapping Bronze ingestion to Snappy Parquet Gold serving.
+
+<br/>
 
 ### BMW M TwinPower Data Architecture
 
