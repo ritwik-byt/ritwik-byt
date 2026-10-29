@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="274" viewBox="0 0 1280 274" role="img" aria-label="Toolkit: BIG DATA &amp; DISTRIBUTED COMPUTE: PySpark, Apache Spark, Databricks, Apache Airflow, Medallion Architecture; CLOUD &amp; STORAGE OPTIMIZATION: Amazon S3, AWS Athena, AWS IAM, Snappy Parquet, Partition Pruning; DATABASES &amp; DATA MODELING: MySQL, Star Schema, SCD Type 2, SQL Window Functions, Schema Enforcement; LANGUAGES, ANALYTICS &amp; DEPLOY: Python, Java, SQL, Streamlit, Plotly / Render">
+<rect x="0.5" y="0.5" width="1279" height="273" rx="18" fill="#101624" stroke="#1e2942"/>
+<g class="m-stripes" transform="translate(1200,16)"><polygon points="0,14 6,14 11,0 5,0" fill="#0084ff"/><polygon points="9,14 15,14 20,0 14,0" fill="#18367a"/><polygon points="18,14 24,14 29,0 23,0" fill="#e61238"/></g>
+<circle cx="44" cy="48" r="2.4" fill="#0084ff"/><text x="58" y="53" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.4" fill="#7287ad">BIG DATA &amp; DISTRIBUTED COMPUTE</text>
+<text x="320" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">PySpark</text>
+<text x="512" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Apache Spark</text>
+<text x="704" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Databricks</text>
+<text x="896" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Apache Airflow</text>
+<text x="1088" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Medallion Architecture</text>
+<line x1="40" x2="1240" y1="81" y2="81" stroke="#1e2942"/>
+<circle cx="44" cy="106" r="2.4" fill="#0084ff"/><text x="58" y="111" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.4" fill="#7287ad">CLOUD &amp; STORAGE OPTIMIZATION</text>
+<text x="320" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Amazon S3</text>
+<text x="512" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">AWS Athena</text>
+<text x="704" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">AWS IAM</text>
+<text x="896" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Snappy Parquet</text>
+<text x="1088" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Partition Pruning</text>
+<line x1="40" x2="1240" y1="139" y2="139" stroke="#1e2942"/>
+<circle cx="44" cy="164" r="2.4" fill="#0084ff"/><text x="58" y="169" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.4" fill="#7287ad">DATABASES &amp; DATA MODELING</text>
+<text x="320" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">MySQL</text>
+<text x="512" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Star Schema</text>
+<text x="704" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">SCD Type 2</text>
+<text x="896" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">SQL Window Functions</text>
+<text x="1088" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Schema Enforcement</text>
+<line x1="40" x2="1240" y1="197" y2="197" stroke="#1e2942"/>
+<circle cx="44" cy="222" r="2.4" fill="#0084ff"/><text x="58" y="227" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1.4" fill="#7287ad">LANGUAGES, ANALYTICS &amp; DEPLOY</text>
+<text x="320" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Python</text>
+<text x="512" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Java</text>
+<text x="704" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">SQL</text>
+<text x="896" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Streamlit</text>
+<text x="1088" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#f0f5ff">Plotly / Render</text>
+</svg>
